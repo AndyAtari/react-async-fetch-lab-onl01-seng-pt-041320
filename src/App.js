@@ -12,7 +12,7 @@ class App extends Component {
         .then(resp => resp.json())
         .then(data => {
             this.setState({
-                peopleInSpace: data.people 
+                peopleInSpace: data.people
             })
         })
     }
@@ -28,4 +28,4 @@ class App extends Component {
 
 }
 
-export default App; 
+export default App;
